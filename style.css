@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    display: flex;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #00A365 34%, white 0%);
+    /* clip-path: polygon(50% 0, 0% 100%, 0 0); */
+    /* background-color: #00A365; */
+}
+
+.left-section {
+    flex: 1;
+    padding: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 120px !important;
+    margin: 0;
+}
+
+.left-section p {
+    margin-right: 220px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.left-section button{
+    background: transparent;
+    border: 1.5px solid white;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px ;
+}
+.right-section {
+    flex: 1;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.right-section h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    /* text-align: center; */
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.input-group input {
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 16px;
+    /* border: none; */
+    border: 0.5px solid #ccc;
+    border-radius: 20px;
+    padding-left: 40px; 
+    margin-top: 10px;
+}
+span{
+    color: orangered;
+}
+label{
+    color: #a1a0a0;
+    font-weight: 600;
+}
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 16px;
+}
+
+.signup-btn {
+    width: 260px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #00A365;
+    border: 2px solid #00A365;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease-out 0.4s;
+}
+
+.signup-btn:hover {
+    background-color: #008452;
+    color: white;
+}
+
+.login-link {
+    margin-top: 20px;
+    margin-right: 240px;
+    color: #00A365;
+    text-align: center;
+    font-size: 14px;
+
+}
